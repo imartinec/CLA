@@ -11,10 +11,24 @@
 	  }
 	],
 	"settings": {
+	  "python.pythonPath": "dev/venv/bin/python",  # Ruta al entorno virtual
+	  "python.formatting.provider": "black",  # Puedes usar un formateador como Black
 	  "editor.tabSize": 4,
-	  "editor.fontSize": 14,
+	  "editor.formatOnSave": true,
 	  "files.autoSave": "afterDelay",
-	  "terminal.integrated.shell.linux": "/bin/bash"
+	  "sqltools.connections": [  # Configura tu conexión SQL aquí
+		{
+		  "name": "MyDatabase",
+		  "dialect": "PostgreSQL",
+		  "server": "localhost",
+		  "port": 5432,
+		  "database": "nombre_base_datos",
+		  "username": "usuario",
+		  "password": "contraseña"
+		}
+	  ],
+	  "liveServer.settings.port": 5500,  # Configuración para Live Server
+	  "liveServer.settings.root": "static"
 	}
   }
   

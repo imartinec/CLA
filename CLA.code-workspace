@@ -1,0 +1,20 @@
+{
+	"folders": [
+	  {
+		"path": "dev"
+	  },
+	  {
+		"path": "qa"
+	  },
+	  {
+		"path": "prod"
+	  }
+	],
+	"settings": {
+	  "editor.tabSize": 4,
+	  "editor.fontSize": 14,
+	  "files.autoSave": "afterDelay",
+	  "terminal.integrated.shell.linux": "/bin/bash"
+	}
+  }
+  
